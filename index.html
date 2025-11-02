@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 3 unidad 3 </title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <div class="rosa margen ancho"></div>
+  
+
+  <div class="contenedorgrande ancho margen">
+
+    <div class="redes">
+     <div class="logo">
+      <img src="RECURSOS/logocabecera.jpg" alt="">
+     </div>
+      
+    <div class="iconos">
+      <img src="RECURSOS/icono_facebook.jpg" alt="">
+      <img src="RECURSOS/icono_twitter.jpg" alt="">
+      <img src="RECURSOS/icono_instagram.jpg" alt="">
+    </div>
+
+    </div>
+
+    <div class="menu ancho margen">
+      <a href="#">GALERIA</a>
+      <a href="#">PRECIOS</a>
+      <a href="#">CONTACTANOS</a>
+      <a href="#">EQUIPO</a>
+    </div>
+
+      <div class="fondo1 ancho margen">
+      <h1>PROMOCIONES DE MARZO</h1>
+      <p>Se acerca la epoca de playa y por eso preparamos estas dos <br>promociones ideales para ti.</p>
+      <div>
+        <button class="boton_1">Solicitar promociones</button>
+        <button class="boton_2">Ver Video</button>
+      </div>
+    </div>
+    <div class="productos"> 
+      <div class="informacion_productos">
+          <h2>Los Productos de Science of Beauty</h2>
+          
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut temporibus, quis autem culpa neque odit voluptates delectus dolorum a repudiandae cupiditate asperiores totam commodi expedita vitae quidem debitis, numquam officia possimus beatae, aliquam ipsam! Distinctio suscipit dignissimos optio rem repudiandae quas tenetur ab soluta. Aut natus velit dolor blanditiis itaque!</p> 
+      </div>
+      <div class="foto_productos">
+        <img src="RECURSOS/fotovelas.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="equipo ancho margen ">
+
+      <div class="titulo_equipos">
+        <h2>Bucamos Talentos para integrarlos a nuestro equipo</h2>
+      </div>
+      <div class="foto_equipos">
+        <img src="RECURSOS/fotoaromatizante.jpg" alt="">
+      </div>
+      <div class="informacion_equipos ">
+        <h3>Puesto de Trabajo Para recepcionista</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium ab nemo optio omnis, ratione praesentium error quae nihil officiis alias atque, odio modi quod pariatur quasi porro suscipit recusandae corrupti.</p>
+        <h3>Puesto de Trabajo Para masajista</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium ab nemo optio omnis, ratione praesentium error quae nihil officiis alias atque, odio modi quod pariatur quasi porro suscipit recusandae corrupti.</p>
+        <h3>Puesto de Trabajo Para nutriologo</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium ab nemo optio omnis, ratione praesentium error quae nihil officiis alias atque, odio modi quod pariatur quasi porro suscipit recusandae corrupti.</p>
+      </div>
+    </div>
+
+    <div class="contacto">
+      <div class="informacion_contacto">
+        <h2>Recibe noticias y promociones de SPA SALON</h2>
+        <p>Un lugar para consentirte de pies a cabeza
+          Servicio de salón estética y Spa personalizado</p>
+          <p>Telefono: 999 420 8871</p>
+          <p>Correo: info@spasalon.com</p>
+            <br>
+          <div class="formulario_contacto">
+            <form action=""  id="formulario-contacto" method="get">
+              <legend>Tu direccion de Correo Electronico</legend>
+              <input type="email" name="correo" id="correo" placeholder="tunombre@example.com" class="elementos_formulario">
+              <br>
+              <button class="boton3" id="boton3">Enviar</button>
+            </form>
+          </div>
+      </div>
+      <div class="video_contacto">
+        <h2>Nuestras Instalaciones</h2>
+        <iframe  src="https://www.youtube.com/embed/w4qaODLR_Xg?si=A6iaWItMJZ_E4-_h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="nombre">
+      <div class="logo"><img src="RECURSOS/logo_spa.png" alt=""></div>
+      <div class="datos">
+      <h1>Daniel Llanos</h1>
+      <h2>Programacion Web</h2>
+      <h2>7SB</h2>
+    </div>
+    </div>
+    
+  </div>
+  <div class="rosa margen ancho"></div>
+
+  <script>
+    //validacion del formulario
+    $ ("#boton3").click (function () {
+      if ($("#correo").val() == ""){
+        alert("El campo es obligatorio");
+        $("#correo").focus();
+        return false;
+      }
+    });
+  </script>
+
+  
+
+
+ 
+
+
+  
+</body>
+</html>

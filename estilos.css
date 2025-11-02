@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ancho {
+    width: 1200px;
+}
+.margen {
+    margin: 0 auto;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.redes {
+  width: 1200px;
+  margin: 0 auto;
+  
+  background-color: #fff9f1; ;
+  
+}
+
+.logo {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+  
+}
+.iconos {
+  width: 900px;
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.iconos img + img {
+  margin-left: 15px;
+}
+.menu {
+  border: 3px black solid;
+  color :black;
+  text-align: center;
+
+}
+
+.menu a {
+  margin-left: 250px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.menu a:first-child {
+  margin-left: 0px;
+}
+
+.fondo1 {
+  width: 1200px;
+  background-image: url(RECURSOS/fondopiedras.jpg);
+  background-size: cover;
+  background-position: center;  
+  height: 400px;
+  text-align: center;
+}
+
+.fondo1 h1 {
+  color: white;
+  
+  padding-top: 150px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.fondo1 p {
+
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.boton_1 {
+  padding: 15px 10px;
+  background-color: #ff3281;
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.boton_2 {
+  padding: 15px 10px;
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #ff3281;
+  cursor: pointer;
+  font-size: 16px;
+}
+.boton_1:hover {
+  background-color: #e62e73;
+}
+
+
+.productos {
+  width: 1000px;
+  margin: 20px auto;
+
+}
+
+.informacion_productos {
+  width: 450px;
+  height: 300px;
+  display: inline-block;
+  margin-right: 94px;
+  vertical-align: top;
+  padding: 10px;
+  text-align: left;
+  line-height: 2.5;
+}
+.foto_productos {
+  width: 450px;
+  height: 300px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.equipo {
+  width: 1200px;
+  background-color: #fff9f1;
+  text-align: center;
+  margin: 20px auto;
+  
+}
+.foto_equipos {
+  width: 450px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 40px;
+  height: 350px;
+}
+
+.informacion_equipos {
+  width: 450px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  line-height: 2;
+  font-size: 13px;
+}
+
+.titulo_equipos {
+  font-size:16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.contacto {
+  width: 1200px;
+  height: 450px;
+  
+
+}
+.contacto h2 {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.informacion_contacto {
+  width: 500px;
+  display: inline-block;
+  text-align: left;
+  font-size: 13px;
+  margin-left: 50px;
+  vertical-align: middle;
+}
+.informacion_contacto p {
+  margin-top: 0px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.video_contacto {
+  width: 560px;
+  height: 400px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 50px;
+  
+}
+.video_contacto iframe {
+  width: 560px;
+  height: 315px;
+  border-radius:  5px;
+}
+
+
+.formulario_contacto {
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 10px;
+  border: 2px solid #ff3281;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.elementos_formulario {
+  width: 90%;
+  display: block;
+  padding: 10px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario_contacto legend {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+}
+
+.boton3 {
+  padding: 10px 40px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+.nombre {
+width: 1200px;
+background-color: #fff9f1;
+height: 200px;
+}
+
+.logo {
+  width: 200px;
+  height: 160px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 30px;
+  padding-top: 10px;
+
+}
+
+.datos {
+  width: 900px;
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+  color: #ff3281;
+  
+}
+
+.rosa {
+  background-color: #ff3281;
+  padding: 10px 0px;
+}
